@@ -5,7 +5,7 @@ account_id = "a1d46f5c53a37a75f82cd8e320855c37"
 workers_dev = true
 compatibility_date = "2022-02-11"
 kv_namespaces = [
-    { binding = "IMAGE_KV", id = "0371cfd0e0764f8995f56797a19c5d7d", preview_id = "b9f003d58ada4949ae6c7e02a1d6b7d2" }
+    { binding = "IMAGE_KV", id = "b9f003d58ada4949ae6c7e02a1d6b7d2", preview_id = "b9f003d58ada4949ae6c7e02a1d6b7d2" }
 ]
 
 [build.upload]
