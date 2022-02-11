@@ -12,6 +12,9 @@ kv_namespaces = [
 format = "service-worker"
 
 [env.production]
+kv_namespaces = [
+    { binding = "IMAGE_KV", id = "0371cfd0e0764f8995f56797a19c5d7d" }
+]
 zone_id = "c979e56c70277aff3cb43df83e9e67a9"
 route = "https://img.bcmct.sh/"
 
