@@ -48,7 +48,6 @@ async function handleRequest(request) {
             typeof data.error !== "undefined" &&
             data.error.message.includes("Resource not found")
           ) {
-            console.log(data.error.toString());
             const body = {
               error: true,
               message: data.error.message,
