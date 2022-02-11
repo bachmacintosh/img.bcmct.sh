@@ -1,0 +1,21 @@
+name = "images"
+type = "javascript"
+
+account_id = "a1d46f5c53a37a75f82cd8e320855c37"
+workers_dev = true
+compatibility_date = "2022-02-11"
+kv_namespaces = [
+    { binding = "IMAGE_KV", id = "0371cfd0e0764f8995f56797a19c5d7d", preview_id = "b9f003d58ada4949ae6c7e02a1d6b7d2" }
+]
+
+[build.upload]
+format = "service-worker"
+
+[env.production]
+zone_id = "c979e56c70277aff3cb43df83e9e67a9"
+route = "https://img.bcmct.sh/"
+
+
+# [secrets]
+# CLOUDINARY_API_KEY
+# CLOUDINARY_API_SECRET
